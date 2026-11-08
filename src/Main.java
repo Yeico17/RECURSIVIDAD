@@ -10,8 +10,8 @@ public class Main {
         //System.out.println("La sumatoria del numero es "+ resultado);
 
         recursividad e = new recursividad();
-        int resultado= e.suma(5);
-        System.out.println("La sumatoria del numero es "+ resultado);
+        int resultado= e.potencia(2,3);
+        System.out.println("El resultado de la potencia del numero es "+ resultado);
 
     }
 
