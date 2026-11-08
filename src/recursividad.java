@@ -25,6 +25,23 @@ public class recursividad {
 
     }
 
-    
+    public static int contarDigitos(int n){
+        if (n<10){
+            return 1;
+        }
+
+        return 1+contarDigitos(n/10);
+
+
+    }
+
+    public static String invertir(String cadena){
+        if (cadena == null || cadena.length()<=1){
+            return cadena;
+        }
+        return invertir(cadena.substring(1))+ cadena.charAt(0);
+
+    }
+
 
 }
