@@ -19,4 +19,4 @@ public class recursividad {
     public static int potencia
 
 }
-//initial commit
+//primer commit 
