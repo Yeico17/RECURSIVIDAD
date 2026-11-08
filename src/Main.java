@@ -18,9 +18,9 @@ public class Main {
         //System.out.println("La cantidad de digitos que tiene el numero es "+ resultado);
 
         recursividad e = new recursividad();
-        String palabra = "";
+        String palabra = "noviembre";
         String resultado= e.invertir(palabra);
-        System.out.println("La cantidad de digitos que tiene el numero es "+ resultado);
+        System.out.println("La palabra invertida es: "+ resultado);
 
 
 
