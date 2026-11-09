@@ -21,10 +21,5 @@ public class Main {
         String palabra = "noviembre";
         String resultado= e.invertir(palabra);
         System.out.println("La palabra invertida es: "+ resultado);
-
-
-
     }
-
-
 }
